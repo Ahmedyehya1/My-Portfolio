@@ -1,0 +1,129 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+
+#title {
+    background-color: #181818;
+    color: white;
+  }
+
+  span {
+    color: #FFDE00;
+  }
+  .box-shadow{  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+
+.img-back{
+    width: 90%;
+    border-radius: 5px;
+    background-size:cover;
+}
+#form{
+    margin-top: 5%;
+}
+.bg{
+    background: #181818;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.col{
+    margin: 20px;
+}
+
+.form-img{
+    width: 30%;
+    
+}
+
+.btn-1{
+    margin-bottom: 10px;
+    width: 50%;
+    color: beige;
+    font-weight: 500;
+}
+
+#footer {
+    padding: 3% 15% 7%;
+    background-color: #181818;
+    color: aliceblue;
+  }
+  
+  .social {
+    margin: 20px 10px;
+  }
+
+  .zoom1 {
+
+    transition: transform .2s; /* Animation */
+    
+  }
+  
+  .zoom1:hover {
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .zoom2 {
+
+    transition: transform .2s; /* Animation */
+    
+  }
+  
+  .zoom2:hover {
+    transform: scale(1.50); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: #F1C40F;
+  }
+
+  /* SHIFT */
+nav.shift ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  nav.shift ul li a:hover {
+    color: #91640F;
+  }
+  nav.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    border-radius: 50px;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #F1C40F;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  nav.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 70%;
+  }

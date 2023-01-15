@@ -1,0 +1,195 @@
+#title {
+  background-color: #121360;
+  color: white;
+}
+
+.title-image {
+  width: 100%;
+  border-radius: 250px;
+}
+
+span {
+  color: #FFDE00;
+}
+a{
+  text-decoration: none;
+  color: #CFD2CF;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*about me section*/
+#about-me {
+  background-color: #000000;
+}
+
+.ab-me {
+  margin-bottom: 2%;
+  color: #FFDE00;
+}
+
+.col-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.img-2 {
+  width: 70%;
+  border-radius: 50px;
+}
+
+.cp {
+  color: white;
+  line-height: 1.5;
+}
+
+/******************testimonial********************/
+.text-bg{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #FEFBF6;
+  color: black;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon {
+  background-color: #CFD2CF;
+}
+
+.carousel-control-next-icon {
+  background-color: #CFD2CF;
+}
+
+.martin-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#footer {
+  padding: 3% 15% 7%;
+  background-color: #181818;
+  color: aliceblue;
+}
+
+.social {
+  margin: 20px 10px;
+}
+
+.zoom {
+
+  transition: transform .2s; /* Animation */
+  
+}
+
+.zoom:hover {
+  transform: scale(1.20); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom1 {
+
+  transition: transform .2s; /* Animation */
+  
+}
+
+.zoom1:hover {
+  transform: scale(1.20); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom2 {
+
+  transition: transform .2s; /* Animation */
+  
+}
+
+.zoom2:hover {
+  transform: scale(1.50); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: #F1C40F;
+}
+
+/* SHIFT */
+nav.shift ul li a {
+  position:relative;
+  z-index: 1;
+}
+nav.shift ul li a:hover {
+  color: #91640F;
+}
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  border-radius: 50px;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #F1C40F;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 70%;
+}
+
